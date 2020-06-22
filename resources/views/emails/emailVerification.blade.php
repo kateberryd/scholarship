@@ -1,0 +1,1 @@
+<p>To verify your account <a href="{{route('account_activation', ['email' => $thisUser['user']->email, 'token' => $thisUser['code']])}}">click here</a></p>
